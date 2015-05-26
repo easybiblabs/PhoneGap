@@ -70,10 +70,6 @@
 
         <config-file target="AndroidManifest.xml" parent="/*">
             <meta-data android:name="com.crittercism.sdk.ApplicationId" android:value="@string/cr_app_id"/>
-            <!-- PhoneGap adds the INTERNET permission by itself -->
-            <uses-permission android:name="android.permission.READ_LOGS"/>
-            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-            <uses-permission android:name="android.permission.GET_TASKS"/>
         </config-file>
 
         <!-- copy Crittercism Lib -->
